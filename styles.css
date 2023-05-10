@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+div p{
+	max-width: 600px;
+	margin: 10px;
+	padding: 15px;
+	border-left: 8px solid green;
+	background-color: #f8fffe;
+	font-weight: bold;
+}
+div ul li{
+	font-weight:600;
+	font-size:17px;
+	list-style-type:circle;
+}
+li::marker{
+	font-size:1.6em;
+}
